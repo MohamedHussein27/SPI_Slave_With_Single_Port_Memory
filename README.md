@@ -1,4 +1,4 @@
-# SPI Project README
+# SPI Slave With Single Port Memory
 
 ![Project Image](path/to/project_image.png)
 
