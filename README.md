@@ -47,7 +47,7 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 
 ## SPI Communication States
 
-![Combined Four States](path/to/combined_four_states_image.png)
+![Combined Four States](Images/Combined_States.png)
 
 ### 1. Write Address
 1. Master starts the write command by sending the write address value, `rx_data[9:8] = din[9:8] = 2'b00`.
@@ -60,7 +60,7 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 8. RAM stores `din[7:0]` in the internal write address bus.
 9. `SS_n = 1` to end communication from the master side.
 
-   ![Write Address](path/to/write_address_image.png)
+   ![Write Address](Images/Write_ADD.png)
 
 ### 2. Write Data
 1. Master continues the write command by sending the write data value, `rx_data[9:8] = din[9:8] = 2'b01`.
@@ -73,7 +73,7 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 8. RAM stores `din[7:0]` in the RAM with the previously held write address.
 9. `SS_n = 1` to end communication from the master side.
 
-   ![Write Data](path/to/write_data_image.png)
+   ![Write Data](Images/Write_Data.png)
 
 ### 3. Read Address
 1. Master starts the read command by sending the read address value, `rx_data[9:8] = din[9:8] = 2'b10`.
@@ -86,7 +86,7 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 8. RAM stores `din[7:0]` in the internal read address bus.
 9. `SS_n = 1` to end communication from the master side.
 
-   ![Read Address](path/to/read_address_image.png)
+   ![Read Address](Images/Read_ADD.png)
 
 ### 4. Read Data
 1. Master continues the read command by sending the read data command, `rx_data[9:8] = din[9:8] = 2'b11`.
@@ -101,7 +101,7 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 10. `tx_valid` will be HIGH for 9 clock cycles (1+8).
 11. `SS_n = 1` to end communication from the master side after receiving data for 8 clock cycles.
 
-   ![Read Data](path/to/read_data_image.png)
+   ![Read Data](Images/Read_Data.png)
 
 ## Additional Notes
 - A `.do` file is included to simplify the simulation setup.
