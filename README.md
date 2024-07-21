@@ -126,3 +126,8 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 4. Refer to the comments in the code for detailed explanations of the functionality and flow.
 
 This project provides a thorough implementation of the SPI protocol, including the SPI Slave, RAM, and a Wrapper module, making it easy to understand and simulate SPI communication.
+
+## Contact Me!
+- Email: Mohamed_Hussein2100924@outlook.com
+- WhatsApp: +20 01097685797
+- LinkedIn: www.linkedin.com/in/mohamed-hussein-274337231
