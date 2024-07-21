@@ -1,6 +1,6 @@
 # SPI Slave With Single Port Memory
 
-![Project Image](path/to/project_image.png)
+![SPI Protocol](Images/SPI_Protocol.gif)
 
 ## Overview
 This repository contains the implementation of an SPI (Serial Peripheral Interface) communication protocol. The project includes the design and code for an SPI Slave, a single-port asynchronous RAM, and an SPI Wrapper that connects the RAM and SPI Slave.
