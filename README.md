@@ -109,15 +109,15 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 - A comprehensive testbench (`SPI_Wrapper_tb.v`) is provided to test various scenarios including writing and reading data.
 
 ## Repository Structure
-```markdown
-.
-├── SPI_SLAVE.v
-├── RAM.v
-├── SPI_Wrapper.v
-├── SPI_Wrapper_tb.v
-├── SPI_Wrapper.do
-├── README.md
-└── Documentation.pdf
+
+
+- SPI_SLAVE.v
+- RAM.v
+- SPI_Wrapper.v
+- SPI_Wrapper_tb.v
+- SPI_Wrapper.do
+- README.md
+- Documentation.pdf
 
 ## How to Use
 1. Clone the repository: git clone https://github.com/yourusername/SPI_Project.git
