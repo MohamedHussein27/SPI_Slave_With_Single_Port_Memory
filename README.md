@@ -123,7 +123,7 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 - README.md
 
 ## How to Use
-1. Clone the repository: git clone https://github.com/yourusername/SPI_Project.git
+1. Clone the repository: git clone https://github.com/MohamedHussein27/SPI_Project.git
 2. Open the project in your preferred Verilog simulator (e.g., ModelSim or QuestaSim).
 3. Use the provided '.do' file to run the simulations.
 4. Refer to the comments in the code for detailed explanations of the functionality and flow.
