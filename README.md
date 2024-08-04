@@ -3,7 +3,7 @@
 ![SPI Protocol](Images/SPI_Protocol.gif)
 
 ## Overview
-This repository contains the implementation of an SPI (Serial Peripheral Interface) communication protocol. The project includes the design and code for an SPI Slave, a single-port asynchronous RAM, and an SPI Wrapper that connects the RAM and SPI Slave.
+This repository contains the implementation of an SPI (Serial Peripheral Interface) communication protocol. The project includes the design and code for an SPI Slave, a single-port synchronous RAM, and an SPI Wrapper that connects the RAM and SPI Slave.
 
 ## SPI Communication Protocol
 SPI is a synchronous serial communication protocol used for short-distance communication, primarily in embedded systems. It enables a master device to communicate with one or more slave devices at high speeds using a minimal number of I/O pins. The protocol uses four main signals:
