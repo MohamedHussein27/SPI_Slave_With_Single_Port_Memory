@@ -111,13 +111,16 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 ## Repository Structure
 
 
-- SPI_SLAVE.v
-- RAM.v
-- SPI_Wrapper.v
-- SPI_Wrapper_tb.v
-- SPI_Wrapper.do
+- Constraints_File
+- DO_File
+- Documentation_PDF
+- Images
+- Netlist_File
+- RTL_Code
+- Run_file
+- Schematics
+- Simulation
 - README.md
-- Documentation.pdf
 
 ## How to Use
 1. Clone the repository: git clone https://github.com/yourusername/SPI_Project.git
@@ -131,4 +134,3 @@ This project provides a thorough implementation of the SPI protocol, including t
 - [Email](mailto:Mohamed_Hussein2100924@outlook.com)
 - [WhatsApp](https://wa.me/+2001097685797)
 - [LinkedIn](https://www.linkedin.com/in/mohamed-hussein-274337231)
-
