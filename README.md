@@ -130,6 +130,11 @@ SPI is a synchronous serial communication protocol used for short-distance commu
 
 This project provides a thorough implementation of the SPI protocol, including the SPI Slave, RAM, and a Wrapper module, making it easy to understand and simulate SPI communication.
 
+## Eng. Kareem Waseem
+- This is the final project of **Digital Design using Verilog and FPGA flow using Vivado Version 13 Diploma** by Eng. **Kareem Waseem** (Digital Verification Team Lead at Si-Vision), I highly recommend this diploma for everyone interested or working in Digital design
+- [Eng. Kareem's LinkedIn](linkedin.com/in/kareem-waseem)
+- For updates check out the [facebook group](facebook.com/groups/319864175836046)
+
 ## Contact Me!
 - [Email](mailto:Mohamed_Hussein2100924@outlook.com)
 - [WhatsApp](https://wa.me/+2001097685797)
